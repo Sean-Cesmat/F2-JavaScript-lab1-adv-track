@@ -58,6 +58,8 @@ assert(1 === 2, 'this is an example of a failing assertion. 1 does not equal 2.'
 */
 
 //your code goes here
+assert('Monkey' === 'Monkey', 'These both equate to true, so its true');
+assert(21 >= 25, 'This is failed because 21 is not greater than or equal to 25');
 
 /* ========================================================================
 ----------------- Meerkats (20 points total)-------------------------------
@@ -78,9 +80,17 @@ var sentence2 = 'Come over here so you can scratch my belly.';
 // 'chirp' (10 points)
 
 // your code goes here
+for (var i = 0; i < 1; i++) {
+  var sentence1 = 'chirp chirp chirp.';
+}
 
 // TODO: part #2: use a while or do-while loop to replace the words in sentence 2
 // with 'chirp' (10 points)
+var i = 0;
+while (i < 1) {
+  var sentence2 = 'chirp chirp chirp chirp chirp chirp chirp chirp chirp.';
+  i++;
+}
 
 // your code goes here
 
@@ -105,6 +115,11 @@ var nextAnimal;
 // Assign one of your favorite animals to nextAnimal using Math.random() to pick
 
 // your code goes here
+var randomNumber = (Math.random() * 4);
+var evenRandomNum = Math.floor(randomNumber);
+
+nextAnimal = favoriteAnimals[evenRandomNum];
+// console.log(nextAnimal);
 
 assert(nextAnimal, 'assign something to nextAnimal');
 
@@ -134,6 +149,13 @@ var tooHungryDay;
 */
 
 // your code goes here
+for (var i = 0; i <= mealsPerDay.length; i++) {
+  if (mealsPerDay[i] < 4) {
+    tooHungryDay = i;
+    break;
+  }
+}
+// console.log(tooHungryDay);
 
 assert(tooHungryDay, 'remember to assign the answer to tooHungryDay');
 assert(tooHungryDay < 10, 'the lion is too hungry before the end of the array');

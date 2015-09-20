@@ -13,4 +13,7 @@ comments. Be sure to read everything. Run lab.js with `node lab1.js`.
 
 
 #### Resources and Collaborators
-
+http://stackoverflow.com/questions/4959975/generate-random-value-between-two-numbers-in-javascript
+http://stackoverflow.com/questions/12071573/js-loop-position-while-iterating-through-an-array
+http://stackoverflow.com/questions/19737105/how-to-check-if-all-values-in-an-array-are-higher-than-a-specific-amount
+Javascript and JQuery by Jon Duckett
